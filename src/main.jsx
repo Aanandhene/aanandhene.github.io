@@ -4,12 +4,12 @@ import './index.css'
 import App from './App.jsx'
 
 // Update document title
-document.title = 'Anandhene - Senior Data Engineer';
+document.title = 'Aanandhene M - Data Engineer';
 
 // Update meta description
 const metaDescription = document.createElement('meta');
 metaDescription.name = 'description';
-metaDescription.content = 'Senior Data Engineer with 8+ years of experience in building scalable data pipelines, data warehouses, and analytics platforms. Expertise in cloud data platforms, ETL/ELT processes.';
+metaDescription.content = 'Data Engineer with 2+ years of experience building scalable, cloud-ready data platforms across streaming, batch, warehouse, and lakehouse systems. Skilled in Kafka, Apache Flink, Python, SQL, PostgreSQL, and real-time analytics.';
 document.head.appendChild(metaDescription);
 
 createRoot(document.getElementById('root')).render(

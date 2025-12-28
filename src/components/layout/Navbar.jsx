@@ -44,11 +44,11 @@ const Navbar = () => {
     >
       <div className={styles.container}>
         <motion.a
-          href="#"
+          href="/"
           className={styles.logo}
           whileHover={{ scale: 1.05 }}
         >
-          AG
+          Aanandhene M
         </motion.a>
 
         {/* Desktop Navigation */}

@@ -9,6 +9,8 @@
 
 .content {
   max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .greeting {
@@ -39,6 +41,8 @@
   line-height: 1.8;
   margin-bottom: 2rem;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ctaGroup {
@@ -46,11 +50,13 @@
   gap: 1rem;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  justify-content: center;
 }
 
 .socialLinks {
   display: flex;
   gap: 1.5rem;
+  justify-content: center;
 }
 
 .socialLink {
