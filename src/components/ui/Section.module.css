@@ -1,0 +1,31 @@
+.section {
+  padding: var(--spacing-2xl) 0;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  max-width: 600px;
+  margin: var(--spacing-sm) auto 0;
+  color: var(--color-text-secondary);
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(to right, var(--color-primary), var(--color-accent));
+  margin: var(--spacing-md) auto 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--spacing-xl) 0;
+    min-height: auto;
+  }
+}

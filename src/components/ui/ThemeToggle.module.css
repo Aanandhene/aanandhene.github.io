@@ -1,0 +1,24 @@
+.toggle {
+  background: var(--color-card-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-text-primary);
+  transition: all var(--transition-fast);
+}
+
+.toggle:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
