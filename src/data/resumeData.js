@@ -1,64 +1,35 @@
 export const resumeData = {
   // Personal Information
   personal: {
-    name: "Anandhene",
-    title: "Senior Data Engineer",
-    location: "Redmond, WA",
-    email: "anandhene.m@gmail.com",
-    linkedin: "linkedin.com/in/anandhene",
-    github: "github.com/anandhene",
-    summary: "Senior Data Engineer with 8+ years of experience in building scalable data pipelines, data warehouses, and analytics platforms. Expertise in cloud data platforms, ETL/ELT processes, and transforming raw data into actionable insights."
+    name: "Aanandhene M",
+    title: "Data Engineer",
+    location: "Erode, India",
+    email: "aanandhene26@gmail.com",
+    phone: "+91 6369675002",
+    linkedin: "linkedin.com/in/aanandhene",
+    github: "github.com/aanandhene",
+    summary: "Proactive Data Engineer with 2+ years of experience building scalable, cloud-ready data platforms across streaming, batch, warehouse, and lakehouse systems. Skilled in designing pipelines using Kafka, Apache Flink, Python, SQL, and PostgreSQL. Strong focus on real-time analytics, data governance, and automation."
   },
 
   // Work Experience
   experience: [
     {
       id: 1,
-      company: "Microsoft",
-      location: "Redmond, WA",
-      position: "Senior Data Engineer",
-      duration: "July 2023 - Present",
+      company: "Span Technology Services Private Ltd.",
+      location: "Erode, India",
+      position: "Junior Data Engineer",
+      duration: "December 2023 - Present",
       type: "Full-time",
-      description: "Building data infrastructure and analytics solutions for Azure cloud services",
+      description: "Product-based technology company delivering logistics, taxation, compliance, and enterprise data solutions for the US market",
       achievements: [
-        "Architected and implemented real-time data pipelines processing 50TB+ daily using Spark and Azure Data Factory",
-        "Led migration of on-premise data warehouse to Snowflake, reducing query times by 70%",
-        "Designed and implemented data quality frameworks improving data accuracy by 95%",
-        "Built self-service data platforms enabling 50+ data analysts and scientists"
+        "Managed end-to-end data engineering workflows across Sprint, Staging, UAT, and Live environments",
+        "Designed and optimized streaming and batch ETL/ELT pipelines ensuring high data availability",
+        "Built and supported data warehouse models with standardized schemas across business domains",
+        "Implemented data governance, lineage, and quality checks using OpenMetadata",
+        "Optimized SQL queries and improved system reliability during peak traffic seasons",
+        "Enabled faster analytics and reporting through optimized data sources and dashboards"
       ],
-      technologies: ["Python", "PySpark", "Azure Data Factory", "Snowflake", "Delta Lake", "dbt", "SQL"]
-    },
-    {
-      id: 2,
-      company: "Zscaler",
-      location: "San Jose, CA",
-      position: "Data Engineer II",
-      duration: "July 2021 - June 2023",
-      type: "Full-time",
-      description: "Developed data infrastructure for security analytics and threat intelligence",
-      achievements: [
-        "Built real-time ETL pipelines processing 10B+ security events daily using Kafka and Spark Streaming",
-        "Designed and implemented data lake architecture on S3 reducing storage costs by 60%",
-        "Created automated data validation frameworks ensuring 99.9% data quality",
-        "Developed metrics and dashboards used by executive leadership for strategic decisions"
-      ],
-      technologies: ["Python", "Apache Spark", "Kafka", "AWS Glue", "Redshift", "Airflow", "Terraform"]
-    },
-    {
-      id: 3,
-      company: "Oracle",
-      location: "Bengaluru, India",
-      position: "Data Engineer",
-      duration: "August 2018 - June 2021",
-      type: "Full-time",
-      description: "Developed data integration solutions and analytics platforms",
-      achievements: [
-        "Built ETL/ELT pipelines integrating data from 20+ sources into enterprise data warehouse",
-        "Optimized SQL queries improving performance by 65% and reducing costs by 40%",
-        "Implemented data governance frameworks ensuring compliance with GDPR and SOC2",
-        "Automated data operations reducing manual effort by 80%"
-      ],
-      technologies: ["Python", "SQL", "Oracle DB", "Apache Airflow", "Kubernetes", "Docker", "Jenkins"]
+      technologies: ["Python", "SQL Server", "PostgreSQL", "Apache Kafka", "Apache Flink", "Redis", "Airflow", "Docker", "OpenMetadata"]
     }
   ],
 
@@ -66,59 +37,43 @@ export const resumeData = {
   education: [
     {
       id: 1,
-      institution: "San Jose State University",
-      location: "San Jose, CA",
-      degree: "Master of Science in Computer Science",
-      duration: "2016 - 2018",
-      gpa: "3.8/4.0"
-    },
-    {
-      id: 2,
-      institution: "Anna University",
-      location: "Chennai, India",
-      degree: "Bachelor of Engineering in Computer Science",
-      duration: "2012 - 2016",
-      gpa: "8.5/10"
+      institution: "Kongu Engineering College",
+      location: "Tamil Nadu, India",
+      degree: "Bachelor of Computer Science & Engineering",
+      duration: "2020 - 2024",
+      gpa: "8.83/10"
     }
   ],
 
   // Skills
   skills: {
     languages: [
-      { name: "Python", level: 95 },
-      { name: "SQL", level: 95 },
-      { name: "Scala", level: 80 },
-      { name: "Java", level: 75 },
-      { name: "Shell Scripting", level: 85 }
+      { name: "Python", level: 90 },
+      { name: "SQL", level: 90 }
     ],
     frameworks: [
-      { name: "Apache Spark", level: 90 },
-      { name: "Apache Airflow", level: 90 },
-      { name: "dbt", level: 85 },
-      { name: "Kafka", level: 85 },
-      { name: "Hadoop", level: 80 }
-    ],
-    cloud: [
-      { name: "Azure Data Factory", level: 90 },
-      { name: "AWS Glue", level: 85 },
-      { name: "Snowflake", level: 90 },
-      { name: "Databricks", level: 85 },
-      { name: "GCP Dataflow", level: 75 }
+      { name: "Apache Kafka", level: 85 },
+      { name: "Apache Flink", level: 85 },
+      { name: "Apache Airflow", level: 80 }
     ],
     databases: [
-      { name: "PostgreSQL", level: 90 },
-      { name: "Snowflake", level: 90 },
-      { name: "Redshift", level: 85 },
-      { name: "BigQuery", level: 85 },
+      { name: "PostgreSQL", level: 85 },
+      { name: "SQL Server", level: 80 },
       { name: "MongoDB", level: 75 },
-      { name: "Redis", level: 80 }
+      { name: "Redis", level: 75 },
+      { name: "Supabase", level: 70 },
+      { name: "Apache Doris", level: 80 }
     ],
     tools: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 85 },
-      { name: "Kubernetes", level: 80 },
-      { name: "Terraform", level: 85 },
-      { name: "CI/CD", level: 85 }
+      { name: "Docker", level: 80 },
+      { name: "GitHub", level: 85 },
+      { name: "Jenkins", level: 75 },
+      { name: "Streamlit", level: 80 },
+      { name: "Superset", level: 75 },
+      { name: "Microsoft Power BI", level: 75 },
+      { name: "OpenMetadata", level: 80 },
+      { name: "Postman", level: 75 },
+      { name: "n8n Automation", level: 70 }
     ]
   },
 
@@ -126,50 +81,82 @@ export const resumeData = {
   projects: [
     {
       id: 1,
-      title: "Real-Time Analytics Pipeline",
-      description: "Built end-to-end real-time data pipeline for streaming analytics and dashboarding",
-      role: "Lead Data Engineer",
-      duration: "2023 - Present",
-      technologies: ["Python", "Spark Streaming", "Kafka", "Delta Lake", "Azure"],
+      title: "Enterprise Data Lakehouse Modernization",
+      description: "Designed and built a scalable lakehouse architecture integrating relational and NoSQL sources into Apache Doris",
+      role: "Data Engineer",
+      duration: "2024",
+      technologies: ["SQL Server", "MySQL", "MongoDB", "PostgreSQL", "Kafka", "Flink", "MinIO", "Airflow"],
       highlights: [
-        "Processing 50TB+ of data daily with sub-second latency",
-        "Reduced time-to-insight from hours to real-time",
-        "Enabled data-driven decisions for 500+ business users"
+        "Improved analytical query performance by 70%",
+        "Reduced API latency by 55%",
+        "Implemented strong data governance with schema enforcement and lineage"
       ]
     },
     {
       id: 2,
-      title: "Cloud Data Lake Migration",
-      description: "Led migration of on-premise data warehouse to cloud data lake architecture",
-      role: "Technical Lead",
-      duration: "2021 - 2023",
-      technologies: ["AWS", "Glue", "S3", "Redshift", "Airflow"],
+      title: "Real-Time Payment Data Reconciliation",
+      description: "Built real-time reconciliation pipelines for payment gateways",
+      role: "Data Engineer",
+      duration: "2024",
+      technologies: ["Kafka", "Flink", "PostgreSQL", "Python", "Slack API"],
       highlights: [
-        "Migrated 5PB of data with zero downtime",
-        "Reduced infrastructure costs by 60%",
-        "Improved query performance by 70%"
+        "Automated reconciliation and anomaly detection workflows",
+        "Reduced manual checks by 85%",
+        "Lowered duplicate payments by 60%"
       ]
     },
     {
       id: 3,
-      title: "Customer 360 Data Platform",
-      description: "Designed and implemented unified customer data platform for analytics and ML",
+      title: "IRS Data Ingestion & Standardization Pipeline",
+      description: "Automated ingestion and validation pipeline for IRS datasets",
       role: "Data Engineer",
-      duration: "2019 - 2021",
-      technologies: ["Python", "SQL", "Airflow", "Snowflake", "dbt"],
+      duration: "2024",
+      technologies: ["Python", "PostgreSQL", "Airflow"],
       highlights: [
-        "Integrated data from 15+ source systems",
-        "Created single source of truth for 100M+ customers",
-        "Enabled advanced analytics and ML use cases"
+        "Improved data readiness by 3×",
+        "Implemented validation, deduplication, and schema consistency checks"
+      ]
+    },
+    {
+      id: 4,
+      title: "Real-Time Monitoring & Observability Framework",
+      description: "Built monitoring and alerting framework for streaming jobs",
+      role: "Data Engineer",
+      duration: "2024",
+      technologies: ["Python", "Flink", "Slack"],
+      highlights: [
+        "Increased incident detection by 80%",
+        "Reduced recovery time by 50%"
+      ]
+    },
+    {
+      id: 5,
+      title: "Streamlit-Based ETL Automation Studio",
+      description: "Developed UI-driven ETL code generation platform",
+      role: "Data Engineer",
+      duration: "2024",
+      technologies: ["Streamlit", "Python", "PyFlink"],
+      highlights: [
+        "Reduced ETL development time by 60%",
+        "Standardized ingestion and transformation patterns"
       ]
     }
   ],
 
   // Certifications
   certifications: [
-    "Microsoft Certified: Azure Data Engineer Associate",
-    "AWS Certified Data Analytics - Specialty",
-    "Databricks Certified Data Engineer Professional",
-    "Google Cloud Professional Data Engineer"
-  ]
+    "Microsoft Azure Fundamentals (AZ-900)",
+    "Google Data Analytics – Coursera"
+  ],
+
+  // Awards
+  awards: [
+    "Span Super Star Award – Recognition for delivering critical projects under tight timelines and effective cross-team collaboration"
+  ],
+
+  // Social Links (Footer)
+  socialLinks: {
+    linkedin: "https://linkedin.com/in/aanandhene",
+    github: "https://github.com/aanandhene"
+  }
 };
